@@ -1,0 +1,26 @@
+{
+  "_comments": {
+    "manifest_version": "必须为3，Chrome扩展新规范要求",
+    "action": "定义扩展图标点击行为",
+    "icons": "扩展图标尺寸规范：16px工具栏图标，48px扩展管理页，128px应用商店"
+  },
+  "name": "Todo List",
+  "description": "简单的待办事项管理扩展",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  },
+  "permissions": [],
+  "host_permissions": ["https://api.example.com/*"],
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  }
+}
